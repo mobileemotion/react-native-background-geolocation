@@ -481,7 +481,7 @@
 
 - (void) showLocationSettings
 {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"prefs:root=LOCATION_SERVICES"]];
+    //[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"prefs:root=LOCATION_SERVICES"]];
 }
 
 - (void) watchLocationMode
